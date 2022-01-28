@@ -71,6 +71,7 @@ header nav a:hover{
 
 .manga-principal .conteudo-destaque{
     width: 60%;
+    margin-bottom: 5px;
 }
 
 .manga-principal{
@@ -101,17 +102,20 @@ header nav a:hover{
     flex-direction: column;
 }
 
+
 .botao{
     background-color: rgba(0,0,0,.50);
     border: none;
     color: var(--stark);
     font: 12px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, Helvetica, sans-serif;
 
-    padding: 10px 15px;
+    padding: 10px;
     margin-left: 20px;
     cursor: pointer;
     width: auto;
+
+    align-items: center;
 }
 
 .botao:hover{

@@ -30,7 +30,9 @@
     .botao{
         margin-top: 5px;
         width: 150px;
-        height: 60px;
+        height: 60;
+        padding: 10px;
+        align-items: flex-start;
     }
 
 

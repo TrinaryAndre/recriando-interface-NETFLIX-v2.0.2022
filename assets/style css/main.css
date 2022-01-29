@@ -236,14 +236,27 @@ header nav a:hover{
 
 
 /*carrossel*/
+
 .carrosel-mangas{
     background-color: var(--void);
     color: var(--stark);
+
 }
 
 .carrosel-mangas h6{
     padding: 10px;
     text-align: center;
     background-color: var(--void);
+}
+
+
+
+.item img {
+    width: auto;
+    height: 400px;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+  
 }
 
